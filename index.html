@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №1 — Варіант 2</title>
+</head>
+<body>
+
+    <header>
+        <h1>Лабораторна робота №1. HTML</h1>
+
+        <nav>
+            <h2>Зміст</h2>
+            <ul>
+                <li><a href="#text">Оформлений текст</a></li>
+                <li><a href="#list">Розподіл навчальних груп</a></li>
+                <li><a href="#weather">Прогноз погоди</a></li>
+                <li><a href="#search">Форма пошуку</a></li>
+                <li><a href="second.html">Інша сторінка сайту</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Оформлений текст -->
+        <section id="text">
+            <h2>Оформлений текст</h2>
+
+            <p>
+                Хімічна реакція
+                <b>ортофосфорної кислоти</b>:
+                P<sub>2</sub>O<sub>5</sub> +
+                3H<sub>2</sub>O &rarr;
+                2H<sub>3</sub>PO<sub>4</sub>
+            </p>
+        </section>
+
+        <!-- Двохрівневий список навчальних груп -->
+        <section id="list">
+            <h2>Розподіл навчальних груп</h2>
+
+            <ul>
+                <li>Спеціальність КІУКІ
+                    <ul>
+                        <li>КІУКІ-24-1</li>
+                        <li>КІУКІ-24-2</li>
+                        <li>КІУКІу-25-1</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Таблиця прогнозу погоди -->
+        <section id="weather">
+            <h2>Прогноз погоди</h2>
+
+            <table border="1">
+                <caption>Прогноз погоди на тиждень</caption>
+
+                <thead>
+                    <tr>
+                        <th>День</th>
+                        <th>Температура</th>
+                        <th>Погодні умови</th>
+                        <th>Опади</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Понеділок</td>
+                        <td>+18 °C</td>
+                        <td>Сонячно</td>
+                        <td>Немає</td>
+                    </tr>
+
+                    <tr>
+                        <td>Вівторок</td>
+                        <td>+20 °C</td>
+                        <td>Мінлива хмарність</td>
+                        <td>Немає</td>
+                    </tr>
+
+                    <tr>
+                        <td>Середа</td>
+                        <td>+16 °C</td>
+                        <td>Хмарно</td>
+                        <td>Можливий дощ</td>
+                    </tr>
+
+                    <tr>
+                        <td>Четвер</td>
+                        <td>+17 °C</td>
+                        <td>Хмарно</td>
+                        <td>Дощ</td>
+                    </tr>
+
+                    <tr>
+                        <td>П'ятниця</td>
+                        <td>+21 °C</td>
+                        <td>Сонячно</td>
+                        <td>Немає</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Форма пошуку -->
+        <section id="search">
+            <h2>Форма пошуку</h2>
+
+            <form action="second.html" method="get">
+                <label for="query">Введіть пошуковий запит:</label>
+
+                <input
+                    type="search"
+                    id="query"
+                    name="query"
+                    placeholder="Що шукаємо?"
+                    required
+                >
+
+                <button type="submit">Шукати</button>
+            </form>
+        </section>
+<img src="picture.jpg" alt="Моя картина" width="300">
+
+        <!-- Гіперпосилання -->
+        <section id="links">
+            <h2>Посилання</h2>
+
+            <p>
+                <a href="second.html">
+                    Перейти на іншу сторінку цього ресурсу
+                </a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Лабораторна робота №1. Варіант 2.</p>
+    </footer>
+
+</body>
+</html>
